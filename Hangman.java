@@ -81,13 +81,13 @@ public class Hangman {
     public static File checkFile(int count) {
         File file;
         switch (count) {
-            case 0 -> file = new File("C:\\JavaProj\\src\\Project1_Hangman\\count0.txt");
-            case 1 -> file = new File("C:\\JavaProj\\src\\Project1_Hangman\\count1.txt");
-            case 2 -> file = new File("C:\\JavaProj\\src\\Project1_Hangman\\count2.txt");
-            case 3 -> file = new File("C:\\JavaProj\\src\\Project1_Hangman\\count3.txt");
-            case 4 -> file = new File("C:\\JavaProj\\src\\Project1_Hangman\\count4.txt");
-            case 5 -> file = new File("C:\\JavaProj\\src\\Project1_Hangman\\count5.txt");
-            case 6 -> file = new File("C:\\JavaProj\\src\\Project1_Hangman\\count6.txt");
+            case 0 -> file = new File("count0.txt");
+            case 1 -> file = new File("count1.txt");
+            case 2 -> file = new File("count2.txt");
+            case 3 -> file = new File("count3.txt");
+            case 4 -> file = new File("count4.txt");
+            case 5 -> file = new File("count5.txt");
+            case 6 -> file = new File("count6.txt");
             default -> throw new IllegalStateException("Unexpected value: " + count);
         }
         return file;
